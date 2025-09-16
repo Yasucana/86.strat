@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4e4bc; /* Sandy battlefield vibe */
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.game-container {
+  text-align: center;
+}
+canvas {
+  border: 2px solid #333;
+  background-color: #d2b48c; /* Desert-like battlefield */
+}
+.ui {
+  margin-top: 10px;
+}
+#unit-info {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold; /* 強調して見やすく */
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #8b0000; /* Macedonian red */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #a30000;
+}
